@@ -3,7 +3,8 @@ import Songify from '../assets/Songify.jpg';
 
 const About = () => {
     return(
-        <div className='w-full bg-[#d692e4] py-16 px-4'>
+        <div className='w-full bg-[#d692e4] pb-16 px-4'>
+            <h1 className='font-medium text-3xl text-center py-10'>projects</h1>
             {/*Project display design - RIGHT SIDE*/}
             <div id='container' className='flex justify-end'>
                 <div className='grid grid-cols-3 grid-flow-col w-[85%]'>
@@ -11,10 +12,9 @@ const About = () => {
                         <img src={Songify} alt="/" className='w-[500px] mx-auto my-4 flex rounded-lg'/>
                     </div>
                     {/*Ball and line component*/}
-                    <div id='column2' className='items-center col-span-2'>
-                        <div className='flex justify-end pr-4'>
-                            <h1 className='md:text-2xl sm:text-xl text-lg font-bold py-2'>Songify: HackWestern9</h1>
-                        </div> 
+                    <div id='column2' className='items-center col-span-2 md:w-[75%] sm:w-[85%] w-[100%]'>
+                        <h1 className='md:text-2xl sm:text-xl text-lg font-bold py-2 flex justify-end pr-4'>Songify: HackWestern9</h1>
+                        <p className='flex justify-end pr-4 md:text-medium sm:text-base text-xs'>Stack: Python, Flask, Javascript, HTML, CSS</p>
                         <div className='flex justify-end items-center'>
                             <hr className='bg-black h-[3px] w-[100%] border-black'></hr>
                             {/*Circle*/}
