@@ -1,9 +1,10 @@
 import React from 'react'
 import Songify from '../assets/Songify.jpg';
+import Background from '../assets/Background.png';
 
 const About = () => {
     return(
-        <div className="w-full pb-16 px-4 bg-cover bg-center h-screen">
+        <div className="w-full pb-16 px-4 bg-cover bg-center h-screen bg-[url('../assets/Background.png')]">
             <h1 className='font-medium text-3xl text-center py-10'>projects</h1>
             {/*Project display design - RIGHT SIDE*/}
             <div id='container' className='flex justify-end'>
