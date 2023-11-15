@@ -3,7 +3,7 @@ import Songify from '../assets/Songify.jpg';
 
 const About = () => {
     return(
-        <div className='w-full bg-[#d692e4] pb-16 px-4'>
+        <div className="w-full pb-16 px-4 bg-cover bg-center h-screen">
             <h1 className='font-medium text-3xl text-center py-10'>projects</h1>
             {/*Project display design - RIGHT SIDE*/}
             <div id='container' className='flex justify-end'>
