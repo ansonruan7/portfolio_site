@@ -1,10 +1,11 @@
 import React from 'react'
 import Typed from 'react-typed';
+import { SlArrowDown } from "react-icons/sl";
 
 const Hero = () => {
     return(
         <div className='text-white'>
-            <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
+            <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center p-6'>
                 <p className='text-[#d8d8d8] font-bold p-1 text-xl'>hi, my name is</p>
                 <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-1 text-white'>Anson Ruan</h1>
                 <div className='flex justify-center items-center'>
@@ -22,6 +23,13 @@ const Hero = () => {
                 {/* May or may not want this button
                 <button className='bg-[#5e91aa] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white'>about me</button>
                 */}
+                <p className='text-[#a3a3a3] pt-12'>scroll down!</p>
+                <div className='flex justify-center items-center pt-1'>
+                    <SlArrowDown/>
+                </div>
+                <div className='flex justify-center items-center translate-y-[-60%]'>
+                    <SlArrowDown/>
+                </div>
             </div>
         </div>
     )
