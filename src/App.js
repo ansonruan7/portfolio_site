@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Projects from './components/newProjects';
+import Projects from './components/NewProjects';
 import Footer from './components/Footer';
 
 

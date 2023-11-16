@@ -4,7 +4,7 @@ import { SlArrowDown } from "react-icons/sl";
 
 const Hero = () => {
     return(
-        <div className='text-white'>
+        <div className='text-white sm:my-14'>
             <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center p-6'>
                 <p className='text-[#d8d8d8] font-bold p-1 text-xl'>hi, my name is</p>
                 <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-1 text-white'>Anson Ruan</h1>
@@ -19,11 +19,11 @@ const Hero = () => {
                 pursuing a degree in software engineering. i'm passionate about creating enjoyable experiences
                 for the users of my software and hope to pursue a career where i can leverage my creativity.
                 </p>
-                <p className='text-[#a3a3a3] pt-14'>when i'm not coding, you'll find me gaming, rock climbing, dancing or djing.</p>
+                <p className='text-[#a3a3a3] pt-12'>when i'm not coding, you'll find me gaming, rock climbing, dancing or djing.</p>
                 {/* May or may not want this button
                 <button className='bg-[#5e91aa] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white'>about me</button>
                 */}
-                <p className='text-[#a3a3a3] pt-12'>scroll down!</p>
+                <p className='text-[#a3a3a3] pt-10'>scroll down!</p>
                 <div className='flex justify-center items-center pt-1'>
                     <SlArrowDown/>
                 </div>
