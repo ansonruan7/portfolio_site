@@ -20,7 +20,7 @@ var NewProjects = () => {
             <div className='flex justify-center items-center'>
                 <ul className='w-[60%] justify-center items-center'>
                     {/*Right Side*/}
-                    <li className='relative rounded-lg hover:bg-[#351f35] px-6 md:my-6 my-12'>
+                    <li className='relative rounded-lg px-6 md:my-6 my-12'>
                         <img src={Songify} alt='Kekw' className='sm:scale-75 lg:translate-x-[-12.5%] bg-[#251625]/[75%] lg:opacity-50 opacity-25'></img>
                         <div className='lg:absolute top-[50%] lg:left-[50%] lg:w-[50%] translate-y-[-50%] p-4 
                         lg:bg-[#492b49] bg-[#492b49]/50  drop-shadow-md hover:bg-[#583458]
@@ -40,8 +40,8 @@ var NewProjects = () => {
                         </div>
                     </li>
                     {/*Left Side*/}
-                    <li className='relative rounded-lg hover:bg-[#351f35] px-6 md:my-6 my-12'>
-                        <img src={BaadDays} alt='Kekw' className='sm:scale-75 lg:translate-x-[12.5%] bg-[#251625]/[75%] lg:opacity-50 opacity-25'></img>
+                    <li className='relative rounded-lg px-6 md:my-6 my-12'>
+                        <img src={BaadDays} alt='Kekw' className='sm:scale-75 2xl:translate-x-[40%] lg:translate-x-[12.5%] bg-[#251625]/[75%] lg:opacity-50 opacity-25'></img>
                         <div className='lg:absolute top-[50%] lg:right-[50%] lg:w-[50%] translate-y-[-50%] p-4 
                         lg:bg-[#492b49] bg-[#492b49]/50  drop-shadow-md hover:bg-[#583458]
                         sm:text-sm text-xs

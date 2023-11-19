@@ -29,7 +29,6 @@ const Footer = () => {
         <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
             <div>
                 <h1 className='w-full text-3xl font-bold text-[#5e91aa]'>anson.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, est nesciunt officiis assumenda sequi, earum ad quidem ipsam libero vitae expedita magni eos. Totam eius animi dolorem saepe fugiat consectetur?</p>
                 <div className='flex justify-between md:w-[50%] my-6'>
                     <a href='https://github.com/ansonruan7?tab=repositories' onMouseEnter={handleGit} onMouseLeave={handleGit}>
                         {!gitHover ? <FaGithubSquare size={30}/> : <FaGithubSquare size={30} color={'grey'}/>}
