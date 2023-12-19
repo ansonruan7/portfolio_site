@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio_site/static/css/main.208959a7.css",
+    "main.js": "/portfolio_site/static/js/main.b18217fd.js",
+    "static/media/BaadDays.jpg": "/portfolio_site/static/media/BaadDays.954a3e002bada2306c7e.jpg",
+    "static/media/superheroDB.png": "/portfolio_site/static/media/superheroDB.042d7e4742db0f71e14a.png",
+    "static/media/Songify.jpg": "/portfolio_site/static/media/Songify.bb9f78d9170c2cf1af42.jpg",
+    "index.html": "/portfolio_site/index.html",
+    "main.208959a7.css.map": "/portfolio_site/static/css/main.208959a7.css.map",
+    "main.b18217fd.js.map": "/portfolio_site/static/js/main.b18217fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.208959a7.css",
+    "static/js/main.b18217fd.js"
+  ]
+}
