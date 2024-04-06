@@ -1,16 +1,18 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Projects from './components/NewProjects';
+import CursorGlow from './components/Cursorglow';
+import TestProjects from './components/testProjects';
 import Footer from './components/Footer';
 
 
 function App() {
   return (
-    <div>
+    <div className='items-center'>
+      <CursorGlow/>
       <Navbar/>
       <Hero/>
-      <Projects/>
+      <TestProjects/>
       <Footer/>
     </div>
   );

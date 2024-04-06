@@ -1,16 +1,16 @@
 import React from 'react'
-import Typed from 'react-typed';
+import { ReactTyped } from "react-typed"
 import { SlArrowDown } from "react-icons/sl";
 
 const Hero = () => {
     return(
-        <div className='text-white sm:my-14'>
+        <div className='text-white'>
             <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center p-6'>
                 <p className='text-[#d8d8d8] font-bold p-1 text-xl'>hi, my name is</p>
                 <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-1 text-white'>Anson Ruan</h1>
                 <div className='flex justify-center items-center'>
                     <p className='text-[#d8d8d8] md:text-5xl sm:text-4xl text-xl font-bold py-4'>i'm proficient in...</p>
-                    <Typed strings={['javascript', 'react', 'tailwind', 'python', 'java', 'MySQL']} 
+                    <ReactTyped strings={['javascript', 'react', 'tailwind', 'python', 'java', 'MySQL']} 
                         typeSpeed={120} 
                         backSpeed={140} loop 
                         className='text-[#5e91aa] md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2'/>
