@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio_site/react-gh-pages/static/css/main.07e55880.css",
-    "main.js": "/portfolio_site/react-gh-pages/static/js/main.905eec25.js",
-    "static/media/WCSIBM.png": "/portfolio_site/react-gh-pages/static/media/WCSIBM.ea0f9774368b4d7bf013.png",
-    "static/media/CHEER.png": "/portfolio_site/react-gh-pages/static/media/CHEER.09078e3b815575bac0fb.png",
-    "static/media/superheroDB.png": "/portfolio_site/react-gh-pages/static/media/superheroDB.042d7e4742db0f71e14a.png",
-    "index.html": "/portfolio_site/react-gh-pages/index.html",
-    "main.07e55880.css.map": "/portfolio_site/react-gh-pages/static/css/main.07e55880.css.map",
-    "main.905eec25.js.map": "/portfolio_site/react-gh-pages/static/js/main.905eec25.js.map"
+    "main.css": "/portfolio_site/static/css/main.1b37b04d.css",
+    "main.js": "/portfolio_site/static/js/main.01f7e6f4.js",
+    "static/media/WCSIBM.png": "/portfolio_site/static/media/WCSIBM.ea0f9774368b4d7bf013.png",
+    "static/media/CHEER.png": "/portfolio_site/static/media/CHEER.09078e3b815575bac0fb.png",
+    "static/media/superheroDB.png": "/portfolio_site/static/media/superheroDB.042d7e4742db0f71e14a.png",
+    "index.html": "/portfolio_site/index.html",
+    "main.1b37b04d.css.map": "/portfolio_site/static/css/main.1b37b04d.css.map",
+    "main.01f7e6f4.js.map": "/portfolio_site/static/js/main.01f7e6f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.07e55880.css",
-    "static/js/main.905eec25.js"
+    "static/css/main.1b37b04d.css",
+    "static/js/main.01f7e6f4.js"
   ]
 }
