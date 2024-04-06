@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
     background-color: rgb(37, 22, 37);
 }
 
@@ -10,12 +10,23 @@ body{
     position: fixed;
     border-radius: 50%;
     opacity: 65%;
-    width: 5500px;
-    height: 5500px;
     background: radial-gradient(circle, rgb(206, 206, 206), rgb(78, 47, 78)); /* Adjust opacity and color */
     mix-blend-mode: overlay; /* Blend mode for the glow effect */
     pointer-events: none; /* Ensures the element doesn't capture mouse events */
     z-index: 9999; /* Make sure it's on top of other elements */
     transition: transform 0.1s ease; /* Smooth transition for movement */
     transform: translate(-50%, -50%); /* Center the element on the cursor */
-  }
+
+    /* Default width and height */
+    width: 5500px;
+    height: 5500px;
+}
+
+/* Media query for specific window size */
+@media screen and (max-width: 1400px) {
+    .cursor-glow {
+        /* Apply different width and height */
+        width: 2500px;
+        height: 2500px;
+    }
+}
